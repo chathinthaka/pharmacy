@@ -1,0 +1,87 @@
+body {
+    font-family: "Sofia", sans-serif;
+    display: flex;
+    height: 100%;
+    margin: 0;
+}
+
+table, tr, td {
+  border-collapse: collapse;
+  border: 1px solid white;
+}
+
+th {
+  font-weight: 550;
+  font-size: 22px;
+  color: black;
+}
+
+td {
+  font-size: 16px;
+  color: black;
+}
+.sidenav {
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10%;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  font-size: 1.5vw;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* =================================================== */
+
+.main {
+  font-size: 28px; /* Increased text to enable scrolling */
+  margin-left: 170px;
+  width: 100%;
+  margin-bottom: 0;
+  background-color: black;
+}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 50%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  height: 100%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding: 10px;
+}
+
+#Home {
+  background-color: #888888;
+}
+#News {background-color: #888888;}

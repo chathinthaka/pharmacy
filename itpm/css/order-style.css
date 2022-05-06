@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Sofia", sans-serif;
+    display: flex;
+
+}
+
+.page-container {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url("../../images/main-wall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sidenav {
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+
+.sidenav .sidenav-top {
+    height: 90px;
+    width: 100%;
+    
+    background-color: white;
+    padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  font-size: 20px;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+
+.sidenav .menu-item {
+    width: 95%;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px auto;
+}
+
+/*==========  RIGHT SIDE  ============*/
+
+.main {
+    font-size: 28px; /* Increased text to enable scrolling */
+    margin-left: 170px;
+    width: 100%;
+    margin-bottom: 0;
+    background-color: black;
+    height: 50px;
+}
+
+.main p {
+    padding-left: 80px;
+}
+
+h4 {
+    margin: 0px auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: #121212;
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 
+        -0 2px 5px #747474, 
+        -1px 3px 5px #767676, 
+        -1.5px 5px 5px #787878, 
+        -2px 7px 5px #7a7a7a,
+        -2.5px 9px 5px #7f7f7f,
+        -3px 11px 5px #838383;
+}
+
+form {
+  float: right;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 80px;
+}
+
+form:hover button.search-button{
+  border: 3px solid #555;  
+  -webkit-transition: 0.5s;  
+  transition: 0.5s;
+}
+
+form:hover input{
+  border: 3px solid #555;
+  -webkit-transition: 0.5s;  
+  transition: 0.5s;
+}
+
+input[type=text] {
+  width: 270px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 12px 10px;
+  margin: 8px 6px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.main .search-button {
+  text-decoration: none;
+  background-color: rgba(1, 1, 1, 0.1);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 800;
+  border: 3px solid #ccc;
+}
+
+table {
+    width: 90%;
+    align: center;
+}
+
+table, tr, th, td {
+  border: 1.5px solid black;
+  border-collapse: collapse;
+}
+
+table .table-button {
+  font-family: "Ubuntu", sans-serif;
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 5px auto;
+}
+
+table .table-button:hover {
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+
+/*======================================*/
+
+button.add-new-order {
+  font-family: "Ubuntu", sans-serif;
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.0);
+  color: black;
+  margin-left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+button.add-new-order:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}

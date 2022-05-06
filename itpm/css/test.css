@@ -1,0 +1,64 @@
+body {
+	height: 97vh;
+	width: 98vw;
+}
+
+.main {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	border: 1px solid red;
+	display: flex;
+	height: 20%;
+}
+
+.header .logo {
+	border: 5px solid black;
+	width: 20%;
+}
+
+.header .bread-crumb {
+	border: 5px solid black;
+	width: 80%;
+	padding: 15px;
+}
+
+.content {
+	border: 1px solid blue;
+	display: flex;
+	height: 80%;
+}
+
+.content .menu-sidebar {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	text-align: center;
+}
+
+.content .menu-sidebar .menu-item {
+	width: 100%;
+	height: 50px;
+	border: 2px solid yellow;
+	background-color: #333333;
+}
+
+.content .table-area {
+	text-align: center;
+}
+
+button {
+	margin: 2px;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+th, td {
+	padding: 5px;
+}
